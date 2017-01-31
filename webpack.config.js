@@ -7,7 +7,7 @@ module.exports = {
   entry: './app/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
+    publicPath: '',
     filename: 'build.js'
   },
   module: {
@@ -54,7 +54,7 @@ if (process.env.NODE_ENV === 'production') {
       }
     }),
     new HtmlWebpackPlugin({
-      inject: true,
+      inject: false,
       template: './index.html'
     }),
     new webpack.LoaderOptionsPlugin({
