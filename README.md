@@ -1,21 +1,29 @@
 # ICJIA Simple Webpack Example
 
-Basic walkthrough of how Webpack bundles javascript and generates a build directory. This is loosely based on the Webpack 2 *Getting Started* example: (https://webpack.js.org/get-started/)[https://webpack.js.org/get-started/]
+Basic walkthrough of how Webpack bundles javascript and generates a build directory. This is loosely based on the Webpack 2 *Getting Started* example: [https://webpack.js.org/get-started/](https://webpack.js.org/get-started/).
 
-## Install dependencies
+The workflow below reflects the basic workflow for ICJIA's recent websites.
 
-```
+## Build Setup
+
+``` bash
+# install dependencies
 npm install
-```
 
-## Run development server
-
-```
+# serve with hot reload at localhost:8080
 npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and serve locally
+npm run build:serve
+
 ```
 
-## Serve the built files from the ```./dist``` directory
+## Main Dependencies
+- [Webpack 2.2.0](https://webpack.js.org/)
+- [Lodash] (https://lodash.com/)
 
-```
-npm run serve
-```
+## Live Example Site (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
+[https://fat-yam.now.sh](https://fat-yam.now.sh)

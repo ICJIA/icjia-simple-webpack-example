@@ -7,10 +7,12 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
     "build": "rm -rf ./dist && cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build:serve": "npm run build && npm run serve",
+    "start": "npm run build",
     "serve": "./node_modules/.bin/serve ./dist"
   },
   "dependencies": {
-    "vue": "^2.1.0"
+
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
