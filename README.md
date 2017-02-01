@@ -26,19 +26,19 @@ npm run build:serve
 
 ```
 
-## Starting dev server:
+## Starting dev server ```npm run dev```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/dev.gif)
 
-
-## Running build:
+## Running build process ```npm run build```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
 
-
 ## Libraries
-- [Webpack 2.2.0](https://webpack.js.org/)
+- [Webpack 2.2.1](https://webpack.js.org/)
 
+## Screen capture
+- [Giphy] (http://giphy.com/)
 
-## Live Example Site (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
+## Live Demo (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
 - [https://fat-yam.now.sh](https://fat-yam.now.sh)
