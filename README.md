@@ -23,7 +23,7 @@ npm run build:serve
 
 ## Main Dependencies
 - [Webpack 2.2.0](https://webpack.js.org/)
-- [Lodash] (https://lodash.com/)
+
 
 ## Live Example Site (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
 [https://fat-yam.now.sh](https://fat-yam.now.sh)
