@@ -26,7 +26,12 @@ npm run build:serve
 
 ```
 
-## Sample Build:
+## Starting dev server:
+
+![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/dev.gif)
+
+
+## Running build:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
 
