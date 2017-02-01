@@ -26,6 +26,10 @@ npm run build:serve
 
 ```
 
+## Cloning the repo to local machine ```git clone https://github.com/ICJIA/icjia-simple-webpack-example.git```:
+
+![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/clone.gif)
+
 ## Running first time install ```npm install```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/install1.gif)
