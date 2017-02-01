@@ -20,17 +20,18 @@ npm run dev
 # build for production with minification
 npm run build
 
-[link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
-
 
 # build for production and serve locally
 npm run build:serve
 
 ```
 
+[link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
+
+
 ## Libraries
 - [Webpack 2.2.0](https://webpack.js.org/)
 
 
 ## Live Example Site (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
-[https://fat-yam.now.sh](https://fat-yam.now.sh)
+- [https://fat-yam.now.sh](https://fat-yam.now.sh)
