@@ -26,10 +26,6 @@ npm run build:serve
 
 ```
 
-## Starting dev server ```npm run dev```:
-
-![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/dev.gif)
-
 ## Running build process ```npm run build```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
