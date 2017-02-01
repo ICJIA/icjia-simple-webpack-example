@@ -7,6 +7,10 @@ The workflow below reflects the basic workflow for ICJIA's recent websites.
 ## Build Setup
 
 ``` bash
+
+# clone project
+git clone https://github.com/ICJIA/icjia-simple-webpack-example.git
+
 # install dependencies
 npm install
 
