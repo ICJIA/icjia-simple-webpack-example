@@ -30,6 +30,10 @@ npm run build:serve
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/install1.gif)
 
+## Running development server ```npm run dev```:
+
+![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/dev.gif)
+
 ## Running build process ```npm run build```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
