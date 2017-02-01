@@ -26,6 +26,8 @@ npm run build:serve
 
 ```
 
+## Sample Build:
+
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
 
 
