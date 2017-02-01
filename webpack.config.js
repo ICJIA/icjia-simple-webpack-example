@@ -64,7 +64,7 @@ if (process.env.NODE_ENV === 'production') {
       }
     }),
     new HtmlWebpackPlugin({
-      inject: false,
+      inject: 'false',
       template: './index.html'
     }),
     new webpack.LoaderOptionsPlugin({
