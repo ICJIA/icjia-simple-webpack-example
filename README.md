@@ -26,6 +26,15 @@ npm run build:serve
 
 ```
 
+## Running first time install ```npm install```:
+
+### Part 1:
+![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/install1.gif)
+
+### Part 2:
+![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/install2.gif)
+
+
 ## Running build process ```npm run build```:
 
 ![link to build] (https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
