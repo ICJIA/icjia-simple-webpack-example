@@ -20,7 +20,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-
 [Build Process](https://github.com/ICJIA/icjia-simple-webpack-example//raw/master/howto/build.gif)
 
 
