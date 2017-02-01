@@ -53,7 +53,10 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+
+    // remove ./dist directory on build
     new CleanWebpackPlugin(['./dist']),
+
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
