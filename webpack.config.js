@@ -44,6 +44,8 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
+
+// only run if in 'production mode'
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
@@ -57,15 +59,18 @@ if (process.env.NODE_ENV === 'production') {
     // remove ./dist directory on build
     new CleanWebpackPlugin(['./dist']),
 
+    // uglify/minimize javascript
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
         warnings: false
       }
     }),
+
+    // create index.html file in ./dist/ directory. Use the index.html template in root.
     new HtmlWebpackPlugin({
       inject: false,
-      template: './index.html'
+      template: path.resolve(__dirname, './index.html')
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true

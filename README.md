@@ -25,7 +25,7 @@ npm run build:serve
 
 ```
 
-## Main Dependencies
+## Libraries
 - [Webpack 2.2.0](https://webpack.js.org/)
 
 

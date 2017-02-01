@@ -5,6 +5,7 @@ import './css/app.css'
 // import ICJIA image
 import image from './img/logo.png';
 
+// create element w/text -- inject into DOM
 function component (el, text) {
   var element = document.createElement(el);
   element.innerHTML = text;
