@@ -1,12 +1,12 @@
- import _ from 'lodash';
 
-function component () {
-  var element = document.createElement('div');
+//import css
+import './css/app.css'
 
-  /* lodash is required for the next line to work */
-  element.innerHTML = _.join(['Hello from javascript'], ' ');
-
+function component (el, text) {
+  var element = document.createElement(el);
+  element.innerHTML = text;
   return element;
 }
 
-document.body.appendChild(component());
+document.body.appendChild(component('div','Hello World!'));
+document.body.appendChild(component('div','Hello from javascript'));
