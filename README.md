@@ -4,8 +4,6 @@ Basic walkthrough of how Webpack bundles javascript and generates a build direct
 
 The workflow below reflects the basic workflow for ICJIA's recent websites.
 
-Hello World from new computer.
-
 ## Build Setup
 
 ``` bash
