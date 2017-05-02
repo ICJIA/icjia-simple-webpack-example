@@ -52,8 +52,3 @@ THIS IS MY PULL REQUEST
 
 ## Live Demo (Running on [Zeit's 'Now' cloud server](https://zeit.co/blog/now-static))
 - [https://fat-yam.now.sh](https://fat-yam.now.sh)
-
-
-##Testing from Jin
-##Title
-#Subtitle
